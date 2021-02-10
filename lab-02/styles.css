@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  background-color: grey;
+  flex-direction: column;
+  font-size: 1.5em;
+  width: 15vw;
+  font-family: sans-serif;
+
+}
+
+nav a {
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #5badf0;
+  background-color: blue;
+  transition: background-color 0.7s;
+}
+
+nav a:hover {
+  background-color: grey;
+}
+
+header, section, main {
+  overflow: auto;
+}
+
+header, section {
+  padding: 0 0.5em;
+}
+
+nav, main {
+  box-sizing: border-box;
+}
+
+section {
+
+}
+
+main {
+  display: flex;
+  flex-direction: row-reverse;
+}

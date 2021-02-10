@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+nav a {
+  transition: 0.7s;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: grey;
+}
+
+main {
+  
+}
